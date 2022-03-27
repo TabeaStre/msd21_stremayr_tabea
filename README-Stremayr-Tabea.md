@@ -36,3 +36,6 @@ pleasedonotmailme@idonotknowanything.com
 
 **Author**\
 This program was written by my konfigurations teacher M.U. and I appreciate sharing his work with us students, so we were able to write a readme about it.
+
+[GitHub Profile](https://github.com/TabeaStre)\
+[FH Joanneum](https://www.fh-joanneum.at/)
