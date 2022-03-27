@@ -26,6 +26,10 @@ calculator.divide(6, 3);
 calculator.multiply(4, 3);
 ```
 
+**Exercises**
+- [Exercise1](exercise1.md)
+- [Exercise2](exercise2.md)
+
 **Support**\
 If there are any questions or problems relating to this program do not hesitate to contact me.
 pleasedonotmailme@idonotknowanything.com
