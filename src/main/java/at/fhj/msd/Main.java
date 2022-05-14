@@ -10,7 +10,5 @@ public class Main
         calculator.minus(1, 2);
         calculator.multiply(1, 2);
         double divisionResult = calculator.divide(1, 2);
-
-        System.out.printf("1 / 2 = %f", divisionResult);
     }
 }
