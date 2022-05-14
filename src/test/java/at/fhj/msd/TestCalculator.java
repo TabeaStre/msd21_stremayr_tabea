@@ -76,4 +76,35 @@ public class TestCalculator
         double actual = calc.multiply(a, b);
         Assertions.assertEquals(expected, actual);
     }
+
+    @Test
+    public void testFaculty()
+    {
+        Assertions.assertEquals(120, calc.faculty(5));
+    }
+
+    @Test
+    public void testFaculty2()
+    {
+        Assertions.assertEquals(1, calc.faculty(0));
+    }
+
+    @Test
+    public void testFaculty3()
+    {
+        long number = 20;
+        long result = 1;
+        for (int i = 1; i <= number; i++)
+        {
+            result = result * i;
+        }
+        long actual = calc.faculty(20);
+        Assertions.assertEquals(result, actual);
+    }
+
+    @Test
+    public void testFaculty4()
+    {
+        Assertions.assertEquals(0, calc.faculty(-5));
+    }
 }

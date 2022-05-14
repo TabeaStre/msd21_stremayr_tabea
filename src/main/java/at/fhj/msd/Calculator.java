@@ -21,4 +21,9 @@ public class Calculator
     {
         return number1 * number2;
     }
+
+    public long faculty(long number)
+    {
+        return 0;
+    }
 }
