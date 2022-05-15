@@ -98,7 +98,7 @@ public class TestCalculator
         {
             result = result * i;
         }
-        long actual = calc.faculty(20);
+        long actual = calc.faculty(number);
         Assertions.assertEquals(result, actual);
     }
 
@@ -106,5 +106,11 @@ public class TestCalculator
     public void testFaculty4()
     {
         Assertions.assertEquals(0, calc.faculty(-5));
+    }
+
+    @Test
+    public void testFaculty5()
+    {
+        Assertions.assertThrowsExactly(ArithmeticException.class, () -> calc.faculty(130));
     }
 }

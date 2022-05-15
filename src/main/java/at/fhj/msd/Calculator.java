@@ -24,6 +24,20 @@ public class Calculator
 
     public long faculty(long number)
     {
-        return 0;
+        if (number < 0)
+        {
+            return 0;
+        }
+
+        long result = 1;
+        for (int i = 1; i <= number; i++)
+        {
+            result = result * i;
+            if (result < 0)
+            {
+                throw new ArithmeticException("Calculation Overflow");
+            }
+        }
+        return result;
     }
 }

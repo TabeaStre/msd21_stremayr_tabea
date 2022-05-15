@@ -39,3 +39,10 @@ Then the result from the calculator-method with the same parameters is saved in 
 So with Assertions.assert() these two results are compared if they are the same.
 Because of the datatype double, there is no over- or underflow. It results in infinity.\
 So there are no edge cases I need to test, and I chose random numbers.
+
+**Faculty()-testing**\
+There are five tests in which the faculty()-method is tested. Tests 1 and 3 are tests to see\
+if the method is implemented correctly. They are testing in two different ways, one time with a given result\
+and Test3 with a calculated result.\
+Tests number 2, 4 and 5 are implemented for testing the edge cases like the faculty of 0 and the faculty of a negative number.\
+In the fifth test I check if there was an overflow and therefore an exception was thrown.
