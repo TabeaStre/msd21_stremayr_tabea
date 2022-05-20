@@ -26,6 +26,9 @@ calculator.divide(6, 3);
 calculator.multiply(4, 3);
 ```
 
+**Templates**
+- [log4j-Template](src/main/resources/log4j2.xml.template)
+
 **Exercises**
 - [Exercise1](exercise1.md)
 - [Exercise2](exercise2.md)

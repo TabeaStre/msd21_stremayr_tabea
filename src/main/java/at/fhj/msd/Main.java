@@ -17,5 +17,6 @@ public class Main
         calculator.minus(1, 2);
         calculator.multiply(1, 2);
         double divisionResult = calculator.divide(1, 2);
+
     }
 }

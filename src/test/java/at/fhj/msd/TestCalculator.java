@@ -60,11 +60,7 @@ public class TestCalculator
     @Test
     public void testDivision2()
     {
-        double a = 356;
-        double b = 0;
-        double expected = a / b;
-        double actual = calc.divide(a, b);
-        Assertions.assertEquals(expected, actual);
+        Assertions.assertThrows(ArithmeticException.class, () -> calc.divide(5, 0));
     }
 
     @Test
