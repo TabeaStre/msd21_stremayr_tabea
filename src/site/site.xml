@@ -1,0 +1,12 @@
+<project name="msd21_stremayr_tabea">
+    <publishDate position="right"/>
+    <version position="left"/>
+    <body>
+        <menu name="Overview">
+            <item name="good_style" href="good_style.html"/>
+        </menu>
+        <menu ref="reports"/>
+        <menu ref="parent"/>
+        <menu ref="modules"/>
+    </body>
+</project>

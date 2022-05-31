@@ -35,6 +35,7 @@ calculator.multiply(4, 3);
 - [Exercise3](exercise3.md)
 - [Exercise4](exercise4.md)
 - [Exercise5](exercise5.md)
+- [Exercise6](exercise6.md)
 
 **Support**\
 If there are any questions or problems relating to this program do not hesitate to contact me.
